@@ -4,6 +4,7 @@
   "private": true,
   "main": "source/app.ts",
   "scripts": {
+    "update": "npm install && jspm install && tsd update",
     "test": "karma start"
   },
   "repository": {
