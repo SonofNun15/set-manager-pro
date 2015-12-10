@@ -2,3 +2,8 @@
 /jspm_packages/
 /node_modules/
 
+# type definitions
+/typings/*/
+
+# log files
+npm-debug.log
