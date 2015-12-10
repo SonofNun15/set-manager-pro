@@ -1,0 +1,44 @@
+{
+  "name": "set-manager-pro",
+  "version": "0.1.0",
+  "private": true,
+  "main": "source/app.ts",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonofNun15/set-manager-pro.git"
+  },
+  "author": {
+    "name": "Josh Graber",
+    "email": "josh.graber.85@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Steve Graber"
+    },
+    {
+      "name": "Sam Graber"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/SonofNun15/set-manager-pro/issues"
+  },
+  "homepage": "https://github.com/SonofNun15/set-manager-pro#readme",
+  "devDependencies": {
+    "jspm": "^0.16.15"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-alpha.50",
+      "es6-shim": "github:es-shims/es6-shim@^0.33.13",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.2",
+      "text": "github:systemjs/plugin-text@^0.0.4",
+      "zone.js": "npm:zone.js@^0.5.8"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
